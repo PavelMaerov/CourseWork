@@ -158,7 +158,7 @@ public class EmployeeBook {
         while (i < employees.length && (employees[i] == null ? 0 : employees[i].getId()) != id) {
             i++;
         }
-        if (i == employees.length) System.out.println("Не найден сотрудник с индексом " + id + " для удаления");
+        if (i == employees.length) System.out.println("Не найден сотрудник с Id " + id + " для удаления");
         else employees[i] = null;
     }
 
